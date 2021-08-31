@@ -35,12 +35,6 @@ void ASplineAudio::BeginPlay()
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s does not have a Sound Cue attached"), *GetName());
 	}
-
-	// Make sure attenuation is attached
-	if (!AudioComponent->AttenuationSettings)
-	{
-		UE_LOG(LogTemp, Error, TEXT("%s does not have Attenuation attached"), *GetName());
-	}
 }
 
 // Called every frame
