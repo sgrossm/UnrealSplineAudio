@@ -12,7 +12,6 @@ the player's position and user-defined range parameter to optimize the tick inte
 
 ![alt text](img/CPPScreenshot.PNG)
 
-You can also convert this actor into a Blueprint, or check out [my full Blueprint]:
-(https://github.com/sgrossm/UnrealSplineAudioBlueprint)
+You can also convert this actor into a Blueprint, or check out my Blueprint implementation: https://github.com/sgrossm/UnrealSplineAudioBlueprint
 <br/>
-For any suggestions or improvements, please email (stevegrossman821@gmail.com).
+For any suggestions or improvements, please email stevegrossman821@gmail.com.
