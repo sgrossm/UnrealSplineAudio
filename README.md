@@ -14,4 +14,9 @@ the player's position and user-defined range parameter to optimize the tick inte
 
 You can also convert this actor into a Blueprint, or check out my Blueprint implementation: https://github.com/sgrossm/UnrealSplineAudioBlueprint
 <br/>
+As a small performance experiment, I replicated this functionality in a Blueprint, and found it to be slower. See the screenshots below:<br/>
+![alt text](img/InkedBlueprintProfiling_LI.jpg)
+As opposed to the C++ project 
+![alt text](img/InkedCPlusPlusProfiling_LI.jpg)
+<br/>
 For any suggestions or improvements, please email stevegrossman821@gmail.com.
